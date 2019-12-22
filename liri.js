@@ -68,23 +68,7 @@ function doWhatInfo() {
 var userInput = process.argv;
 var inputTopic = process.argv[2];
 
-switch (inputTopic){
-    case "concert-this":
-        bandInfo();
-        break;
-    
-    case "spotify-this-song":
-        songInfo();
-        break;
-    
-    case "movie-this":
-        movieInfo();
-        break;
 
-    case "do-what-it-says":
-        doWhatInfo();
-        break;
-}
 function bandInfo(){
     var bandName = "";
     for (var i = 3; i < userInput.length; i++){
