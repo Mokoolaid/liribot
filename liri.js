@@ -65,38 +65,7 @@ function doWhatInfo() {
         }
       });
 };
-var userInput = process.argv;
-var inputTopic = process.argv[2];
 
 
-function bandInfo(){
-    var bandName = "";
-    for (var i = 3; i < userInput.length; i++){
-        if (i > 3 && i < userInput.length){
-            bandName = bandName + "+" + userInput[i];
-        }
-        else{
-            bandName += userInput[i];
-        }
-    }
-function songInfo(){
-    var songName = "";
-    for (var i = 3; i < userInput.length; i++){
-        if (i > 3 && i < userInput.length){
-            songName = songName + "+" + userInput[i];
-        }
-        else{
-            songName += userInput[i];
-        }
-    }
-function movieInfo(){
-    var movieName = "";
-    for (var i = 3; i < userInput.length; i++){
-        if (i > 3 && i < userInput.length){
-            movieName = movieName + "+" + userInput[i];
-        }
-        else{
-            movieName += userInput[i];
-        }
-    }
+
 
